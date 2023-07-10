@@ -31,7 +31,7 @@ window.onload = async () => {
     let data = await fetch("https://corona-virus-world-and-india-data.p.rapidapi.com/api", {
         method: "GET",
         headers: {
-            'X-RapidAPI-Key': 'f536e4aeabmshd76e22ac5180d40p10f695jsn29ba8f5c75a7',
+            'X-RapidAPI-Key': 'api key',
             'X-RapidAPI-Host': 'corona-virus-world-and-india-data.p.rapidapi.com'
         }
     }).then(response => response.json()).catch((e) => {
